@@ -10,7 +10,7 @@ public:
         
         int i=matrix.size();//no. of rows
         int j=matrix[0].size();//no. of col
-        int row=0; int col=n-1;
+        int row=0; int col=j-1;
         while((row>=0 && row<i)&& (col>=0 && col<j))
         {
             if(matrix[row][col]==target)
